@@ -1,24 +1,4 @@
 # NgSmoothSizeChange
+Librería para Angular que proporciona un componente capaz de animar cambios de tamaño cuando estos suceden por la adición/eliminación de elementos dentro de un bloque (por ejemplo un listado con ngFor que cambie en algún momento).
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.14.
-
-## Code scaffolding
-
-Run `ng generate component component-name --project ng-smooth-size-change` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-smooth-size-change`.
-> Note: Don't forget to add `--project ng-smooth-size-change` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build ng-smooth-size-change` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build ng-smooth-size-change`, go to the dist folder `cd dist/ng-smooth-size-change` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test ng-smooth-size-change` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Recibe un parámetro "trigger", que será la variable que cambie y detone el recálculo de tamaño cada vez que se modifica el contenido del bloque (que puede ser el propio array de elementos si fuera un ngFor, o una variable cualquiera que simplemente "cambie" en ese momento).
